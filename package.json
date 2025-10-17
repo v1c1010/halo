@@ -1,0 +1,13 @@
+{
+  "name": "form-tests",
+  "version": "1.0.0",
+  "description": "Simple Playwright + TypeScript project using DemoQA Practice Form",
+  "scripts": {
+    "test": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "typescript": "^5.6.0"
+  }
+}
